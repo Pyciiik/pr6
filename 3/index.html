@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестування учнів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Завдання для самостійного виконання</h1>
+    <p>Запитання: скільки хвилин у годині?</p>
+    <form id="testForm">
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Перемикачі</th>
+                    <th>Підказки</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="answer" value="50"></label>
+                    </td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="answer" value="60"></label>
+                    </td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="answer" value="70"></label>
+                    </td>
+                    <td>70</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <button type="button" id="checkButton">Перевірка рішення</button>
+    </form>
+    <p id="feedback"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

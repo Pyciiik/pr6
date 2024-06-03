@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Відправлення e-mail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Відправлення e-mail</h1>
+    <form id="emailForm" action="mailer.php" method="post">
+        <div class="form-group">
+            <label for="fromEmail">Ваша електронна пошта:</label>
+            <input type="email" id="fromEmail" name="fromEmail" required>
+        </div>
+        <div class="form-group">
+            <label for="toEmail">Введіть адресу одержувача:</label>
+            <input type="email" id="toEmail" name="toEmail" required>
+        </div>
+        <div class="form-group">
+            <label for="subject">Тема:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Відправити</button>
+    </form>
+</body>
+</html>

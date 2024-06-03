@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Navigation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to bottom, #fd7b7b, #7381ff);
+    }
+    p {
+      color: #333;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .button {
+      background-color: #7381ff;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .button:hover {
+      background-color: #615de0;
+    }
+    .button:active {
+      background-color: #4a46ad;
+    }
+  </style>
+</head>
+<body>
+  <p>Select task:</p>
+  <div class="button-container">
+    <button class="button" onclick="window.location.href='1/index.html';">
+      Task 1
+    </button>
+    <button class="button" onclick="window.location.href='2/index.html';">
+      Task 2
+    </button>
+    <button class="button" onclick="window.location.href='3/index.html';">
+      Task 3
+    </button>
+    <button class="button" onclick="window.location.href='4/index.html';">
+      Task 4
+    </button>
+    <button class="button" onclick="window.location.href='5/index.html';">
+        Task 5
+      </button>
+      <button class="button" onclick="window.location.href='6/index.html';">
+        Task 6
+      </button>
+  </div>
+</body>
+</html>
